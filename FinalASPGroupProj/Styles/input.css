@@ -1,0 +1,138 @@
+﻿body {
+        background-Image: url(Bkimg.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center; 
+        background-size: 100% 100%;
+     }
+
+form {
+        background-color:lightgrey;
+          
+    }
+
+.rotatingImageSize {
+        max-height: 300px;
+        max-width: 300px;
+    
+    }
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+#barBackground {
+    background-color: darkred;
+}
+
+.headingColor {
+    color: darkred;
+
+}
+
+#bottomText {
+    color: lightgray
+}
+	
+.copyright {
+	width: 100%;
+	display: block;
+	bottom: 0px;
+	margin: 50px auto 5px auto;
+	
+
+}
+.row
+{
+	border:5px,solid,#ccc;
+	background-color:#222;
+	font-family: "Arial", Georgia, Cursive;
+}
+.footer-links
+
+{
+	font-size:10px;
+}
+
+	button, input[type="button"], input[type="submit"] { 
+     background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+} 
+    
+
+
+    .main-container{
+    
+background: #d53369; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #d53369 , #cbad6d); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #d53369 , #cbad6d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+    }
+
+.highlight  {
+    width: 600px;
+    color: red;
+    background: rgba(0, 0, 0, 0.26);
+    border-radius: 10px;
+    padding: 3%;
+    
+	}
+    
+.highlight img {
+    
+    float: left;
+    width: 100px;
+    height: 100px; 
+    margin: 10px;
+    }
+    
+.highlight ul {
+    list-style-image: url('http://icons.iconarchive.com/icons/yusuke-kamiyamane/fugue/16/tick-small-icon.png');
+    margin-left: 1%;
+    float: left; 
+    clear: right
+    }
+    
+.highlight button {
+   margin-left: 1%;
+    float: right;
+    }
+
+.highlight h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 2%;
+  border-bottom: 2px dashed rgba(255, 255, 255, 0.41);
+    font-size:20px;
+    text-align : center;
+    text-transform: uppercase;
+    }
+    
+.highlight p {
+    text-align: justify;
+    }
+
+.data-toggle, .togleimg {
+				margin:100px 150px 100px 80px;
+				border: 1px solid black;
+				border-radius:5px;
+				float: left;
+				width: 180px;
+			}
+
+			div img:hover {
+				border: 1px solid #777;
+			}
+
+			div img img {
+				width:100% ;
+				height: 100%;
+			}
